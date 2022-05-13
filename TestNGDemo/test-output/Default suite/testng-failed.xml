@@ -5,15 +5,19 @@
     <classes>
       <class name="testNGpractice.AnnotationsDemo">
         <methods>
+          <include name="invocationcountShowCaseMethod"/>
+          <include name="testCurrentUrl"/>
+          <include name="signUp"/>
+          <include name="checkLogin"/>
+          <include name="screenshot"/>
           <include name="cleanUp"/>
           <include name="profileSetup"/>
           <include name="appSetup"/>
+          <include name="finallogout"/>
           <include name="closeUp"/>
           <include name="logout"/>
-          <include name="checkLogin"/>
           <include name="reportReady"/>
           <include name="setUp"/>
-          <include name="screenshot"/>
         </methods>
       </class> <!-- testNGpractice.AnnotationsDemo -->
     </classes>
